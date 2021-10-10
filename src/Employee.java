@@ -35,7 +35,7 @@ public class Employee {
     }
 
     void printOut(){
-
+        System.out.println("---------------------------------------------");
         System.out.println("Adı :" + name);
         System.out.println("Ham maaş :" + salary);
         System.out.println("Kıdem Tazminatı :" + kidemTaz);
@@ -48,5 +48,6 @@ public class Employee {
         System.out.println("Mesai ücreti : " + bonus);
         System.out.println("Net Ele Geçen Maaş Miktarı: " + (bonus + salary + kidemTaz+(-taxRate)));
         System.out.println("Çalışma süresi (yıl): " + hireYear);
+        System.out.println("---------------------------------------------");
     }
     }

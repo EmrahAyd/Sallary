@@ -4,5 +4,9 @@ public class Main {
       emrah.bonus();
       emrah.raiseSalary();
       emrah.printOut();
+      Employee mahmut = new Employee("Mahmut",900,75,1990);
+      mahmut.bonus();
+      mahmut.raiseSalary();
+      mahmut.printOut();
     }
 }
