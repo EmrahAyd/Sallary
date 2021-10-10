@@ -14,9 +14,7 @@ public class Employee {
         this.hireYear= 2021 - hireYear;
         this.taxRate= salary*0.03;
     }
-   void tax(){
-//Alta taşındı...
-    }
+
 
   void bonus(){
         if (workHours>40)
